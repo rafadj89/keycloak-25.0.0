@@ -8,7 +8,7 @@ ENV KEYCLOAK_ADMIN=admin
 ENV KEYCLOAK_ADMIN_PASSWORD=admin
 
 # Configuración de la base de datos Postgres (Render → External Database)
-ENV KC_DB=keycloak_kf7c
+ENV KC_DB=postgres
 ENV KC_DB_URL=jdbc:postgresql://dpg-d46mm1je5dus73df82i0-a.virginia-postgres.render.com/keycloak_kf7c
 ENV KC_DB_USERNAME=keycloak_kf7c_user
 ENV KC_DB_PASSWORD=sWUZ2MBj4seL1b4r6YanU1WNoMi1n4N9
